@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">app信息查看</string>
+    <string name="filter_all_app">所有应用程序</string>
+    <string name="filter_system_app">系统应用</string>
+    <string name="filter_third_app">第三方应用</string>
+    <string name="filter_sdcard_app">SD卡中的应用</string>
+</resources>

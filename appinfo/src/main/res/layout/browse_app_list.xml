@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<ImageButton
+			android:id="@+id/select"
+			android:src="@mipmap/ic_action_list_2"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			/>
+		<TextView
+			android:textColor="#ff1199"
+			android:text="欢迎使用"
+			android:layout_weight="4.5"
+			android:gravity="center"
+			android:textSize="25dp"
+			android:layout_width="0dp"
+			android:layout_height="40dp" />
+		<TextView
+			android:clickable="true"
+			android:text="打印信息"
+			android:textSize="15dp"
+			android:gravity="center"
+			android:id="@+id/show"
+			android:layout_width="0dp"
+			android:layout_weight="1.5"
+			android:layout_height="40dp" />
+	</LinearLayout>
+
+	<ListView
+		android:id="@+id/listviewApp"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" />
+
+
+</LinearLayout>
+
